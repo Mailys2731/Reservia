@@ -1,0 +1,101 @@
+/*ASIDE (Les plus populaires)---------------------------------------- */
+
+.aside1{
+    background-color: #F2F2F2;
+    width:max-content;
+    height: min-content;
+    border-radius: 1rem;
+    padding-left:0.7rem;
+    padding-right:0.7rem;
+    padding-top:0.7rem;
+    padding-bottom: 0.3rem;
+    margin-left: 1.5rem;
+}
+
+
+.title-populaire{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-populaire{
+    margin-top: 0.8rem;
+    margin-right: 0.5rem;
+}
+
+.carte2{
+    background-color:white;
+    height: min-content;
+    width: 90%;
+    border-radius: 0.9rem;
+    border: solid 3px white;
+    margin-right:0.5rem;
+    margin-left: 0.5rem;
+    margin-bottom: 1rem;
+    padding-right: 0.5rem;
+    
+}
+.carte2 a{
+    display: flex;
+    text-decoration: none;
+}
+
+.description2 {
+    width: calc(100% - 6.3rem);
+}
+
+
+.image2-1{
+    width:6.3rem;
+    height:6rem;
+    background:url('images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    border-top-left-radius: 0.9rem;
+    border-bottom-left-radius: 0.9rem;
+
+    
+}
+
+.image2-2{
+    width:6.5rem;
+    height:6rem;
+    background:url('images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    border-top-left-radius: 0.9rem;
+    border-bottom-left-radius: 0.9rem;
+
+}
+
+.image2-3{
+    width:6.5rem;
+    height:6rem;
+    background:url('images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg');
+    background-position: center;
+    background-size:cover;
+    border-top-left-radius: 0.9rem;
+    border-bottom-left-radius: 0.89em;
+
+}
+
+
+.note_star_2{
+    display:flex;
+    font-size: 0.7rem;
+    margin-left: 0.6rem;
+    margin-bottom: 0.2rem;
+    margin-top: 2rem;
+}
+
+@media screen and (max-width:750px){
+    .aside1{
+        margin-left:0px;
+        width: auto;
+        border-radius: 0px;
+        margin-top:0.4rem;
+    } 
+}
+
+@media screen and (min-width:750px) and (max-width:1024px){
+}

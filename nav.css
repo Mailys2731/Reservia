@@ -1,0 +1,170 @@
+/*NAV------------------------------------------------------------------------------*/
+nav{
+    margin-left:2.5rem;
+}
+
+
+
+
+h1{
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top:2rem;
+    margin-bottom: 0.5rem;
+}
+
+nav .text-style3{
+    margin-top: 0.5rem;
+}
+
+#nav-search-city{
+    display: flex;
+}
+
+.icon-map{
+    width:25px;
+    background-color:#F2F2F2;
+    border-bottom-left-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    text-align: center;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+}
+
+.city-search{
+    font-weight: bold;
+    padding-left: 1rem;
+    border:1px solid #F2F2F2;
+}
+
+.city-search:hover{
+    border:none;
+}
+
+.search-button{
+    background-color: #0065FC;
+    color:white;
+    border:none;
+    border-bottom-right-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.icon-iphone{
+    display:none;
+}
+
+#nav-filter{
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.filter-button{
+    display: flex;
+    border:1.5px solid #DEEBFF;
+    background-color: white;
+    border-radius: 1.4rem;
+    margin-left: 1rem;
+    height: 2rem;
+    width: max-content;
+    align-items: center;   
+    text-decoration: none;
+
+}
+
+.filter-button p{
+    padding:0.6rem;
+}
+
+.filter-icon{
+
+    background-color: #DEEBFF;
+    color: #0065FC;
+    text-align: center;
+    border-radius: 100%;
+    padding:0.5rem;
+    
+    
+}
+
+#nav-filter a:hover{
+    background-color: #DEEBFF;
+ 
+}
+
+#button-small{
+    padding-left:0.2rem;
+    padding-right:0.2rem;
+}
+
+#nav-number{
+    display:flex;
+    margin-top:0.5rem;
+}
+
+#info-icon{
+    height: 10px;
+    font-size: 0.5rem;
+    color: #0065FC;
+    margin-top:0.2rem;
+    border: solid #F2F2F2 1px;
+    border-radius: 100%;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    padding-top: 0.1rem;
+    margin-right: 0.4rem;
+    margin-top: 0.5rem;
+    
+}
+    
+@media screen and (max-width:1366px){
+    nav{
+        margin-left:2rem;
+        margin-right: 2rem;
+    }
+
+    h1{
+        font-size: 1.1rem;
+        padding-right: 4rem;
+        padding-bottom: 0.2rem;
+        margin-top: 1.5rem;
+    }
+
+    #nav-search-city{
+        margin-top:2rem;
+        height: 40px;
+        
+    }
+
+    .search-button{
+        display: none;
+    }
+
+    .icon-iphone{
+        display: flex;
+        border-radius: 0.6rem;
+        background-color: #0065FC;
+        color:white;
+        width:40px;
+        padding-top: 0.8rem;
+        justify-content: center; 
+        border:none;
+        margin-left: -15px;
+    }
+
+  
+    .icon-map{
+        width:40px;
+        padding-top: 0.6rem;
+    }
+
+    #nav-filter p{
+        width:100%;
+    }
+
+    .filter-button{
+        margin-bottom: 0.4rem;
+    }
+}

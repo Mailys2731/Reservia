@@ -1,0 +1,201 @@
+/*ARTICLE1---------------------------------------------------------------------*/
+
+
+.article1{
+    display: flex;
+}
+
+
+h2{
+    font-size: 1rem;
+}
+
+.titre1{
+    color: black;
+    font-weight: bold;
+    font-size: 0.7rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.1rem;
+    margin-left: 0.6rem;
+}
+
+.titre2{
+    color:black;
+    font-size: 0.6rem;
+    margin-top: 0.1rem;
+    margin-bottom: 0.1rem;
+    margin-left: 0.6rem;
+}
+
+@media screen and (max-width:750px){
+    .article1{
+        flex-direction: column-reverse;
+    }
+}
+
+
+
+/*Section hébergements-------------------------------------------------------*/
+
+
+.section-hebergement{
+    background-color: #F2F2F2;
+    width:min-content;
+    height: min-content;
+    border-radius: 1rem;
+    padding:0.7rem;
+}
+
+
+.title-hébergement{
+    margin-left: 0.6rem;
+}
+
+.horizontal-block{
+    display: flex;
+}
+
+
+
+/*CARTE1 (hébergement)*/
+
+.carte1{
+    background-color: white;
+    width:10.5rem;
+    height: 100%;
+    border: 3px solid white;
+    border-radius: 0.9rem;
+    box-shadow: 0 0 16px #0000002e;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.carte1 a{
+    text-decoration: none;
+}
+
+.note_star{
+    display:flex;
+    font-size: 0.6rem;
+    margin-left: 0.6rem;
+    padding-bottom: 0.2rem;
+    padding-top: 0.10rem;
+}
+.full-star{
+    color:#0065FC;
+
+}
+.empty-star{
+    color:#F2F2F2;
+}
+
+.footer-article1{
+    margin-left: 0.6rem;
+}
+
+/*IMAGES (hébergement)*/
+
+.image1-1{
+    width:100%;
+    height:5rem;
+    background:url('images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg');
+    background-size: cover;
+    border-top-left-radius: 0.8rem;
+    border-top-right-radius: 0.8rem;
+    margin:0px;
+}
+
+
+
+.image1-2{
+    width:100%;
+    height:5rem;
+    background:url('images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    border-top-left-radius: 0.8rem;
+    border-top-right-radius: 0.8rem;
+}
+
+.image1-3{
+    width:100%;
+    height:5rem;
+    background:url('images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    border-top-left-radius: 0.8rem;
+    border-top-right-radius: 0.8rem;
+}
+
+.image1-4{
+    width:100%;
+    height:5rem;
+    background:url('images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    border-top-left-radius: 0.8rem;
+    border-top-right-radius: 0.8rem;
+}
+
+.image1-5{
+    width:100%;
+    height:5rem;
+    background:url('images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    border-top-left-radius: 0.8rem;
+    border-top-right-radius: 0.8rem;
+}
+
+.image1-6{
+    width:100%;
+    height:5rem;
+    background:url('images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    border-top-left-radius: 0.8rem;
+    border-top-right-radius: 0.8rem;
+}
+
+@media screen and (max-width:750px){
+  
+    .section-hebergement{
+        background-color: white;
+        width: auto;
+        padding-left: 0.7rem;
+    }
+
+    .horizontal-block{
+        flex-direction: column;
+    }
+
+    .carte1{
+        margin-left: 0px;
+        width:90%;
+        margin-right:0.5rem;
+        margin-left: 0.5rem;
+    }
+}
+
+@media screen and (min-width:751px) and (max-width:1366px){
+  
+    .article1{
+        justify-content: space-around;
+    }
+
+    .section-hebergement{
+        width: 50%;
+    }
+
+    .horizontal-block{ 
+        flex-direction: column;
+    }
+
+    .bloc-carte1{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+

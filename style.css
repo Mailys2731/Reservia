@@ -1,0 +1,201 @@
+
+
+body{
+    font-family: 'Raleway', sans-serif;
+    margin-left: 15%;
+    margin-right: 15%;
+    max-width: 1200px;
+}
+
+@media screen and (max-width:750px){
+    body{
+        margin-left:0px;
+        margin-right: 0px;
+        width: auto;
+        max-width: 450px;
+    }
+}
+
+@media screen and (min-width:750px) and (max-width:1024px){
+    body{
+        margin-left:0px;
+        margin-right: 0px;
+        width: auto;
+        max-width:1100px;
+    }
+
+    }
+
+/*MAIN---------------------------------------------------------------------*/
+
+main{
+    margin-left:2.5rem;
+    margin-right:2.5rem;    
+}
+
+@media screen and (max-width:1366px){
+    main{
+        margin-left:0px;
+        margin-right: 0px;
+    }
+}
+
+
+
+
+/*TITRES*/
+
+.text-style1{
+    color:black;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.text-style2{
+    color:black;
+    font-size:0.8rem;
+    font-weight: bold;
+}
+
+.text-style3{
+    color:black;
+    font-size:0.7rem;
+    font-weight: lighter;
+
+}
+
+
+
+/*HEADER-------------------------------------------------------------------------------*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2rem;
+    margin-right:2rem;
+}
+
+.list-header {
+    list-style-type: none;
+    display:flex;
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+
+.list-header a{
+    color:grey;
+    text-decoration: none;
+    padding-top: 20px;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+    margin-left: 2rem;
+}
+
+.list-header a:hover{
+    color:#0065FC;
+    border-top: #0065FC solid 1.5px;
+}
+
+.list-header2  a{
+    color:#0065FC;
+    font-weight: bold;
+}
+
+@media screen and (max-width:1024px){
+
+    .logo-reservia{
+        position:absolute;
+        margin-left:1rem;
+    }
+
+    header{
+        justify-content: start;
+        margin:0px;
+    }
+    .list-header{
+        flex-wrap:wrap-reverse;
+        width:100%;
+        margin: 0px;
+    }
+
+    .list-header1{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .list-header1 a:hover{
+        border-top:none;
+
+    }
+
+    .list-header1 a{
+        width: 50%;
+        margin-left:0px;
+        padding:0px;
+        padding-bottom:0.5rem;
+    }
+
+    
+    .list-header1-1{
+
+        border-bottom: #0065FC solid 3px;
+    }
+    
+    .list-header1-2{
+
+        border-bottom: #F2F2F2 solid 3px;
+    }
+
+    .list-header2{
+
+        margin-left:38rem;
+        margin-top:1rem;
+    }
+}
+
+@media screen and (max-width:750px){
+
+    .list-header2{
+
+    margin-left:12rem;
+    margin-top:1rem;
+    }
+}
+
+/*FOOTER-------------------------------------------------------------------------------*/
+
+
+footer{
+    background-color: #F2F2F2;
+    display: flex;
+    padding-top:1rem;
+    padding-left: 10rem;
+    padding-right:10rem;
+    justify-content: space-between;
+}
+
+.ul-footer{
+    list-style-type: none;
+    padding-left: 0rem;
+}
+
+.ul-footer a{
+    color:black;
+    text-decoration: none;
+    
+}
+
+@media screen and (max-width:750px) {
+
+    footer{
+        flex-direction: column;
+        padding-left:2rem;
+        padding-bottom: 3rem;
+    }
+
+}
