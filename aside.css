@@ -12,7 +12,6 @@
     margin-left: 1.5rem;
 }
 
-
 .title-populaire{
     display: flex;
     justify-content: space-between;
@@ -26,7 +25,6 @@
 .carte2{
     background-color:white;
     height: min-content;
-    width: 90%;
     border-radius: 0.9rem;
     border: solid 3px white;
     margin-right:0.5rem;
@@ -42,60 +40,69 @@
 
 .description2 {
     width: calc(100% - 6.3rem);
+    align-content:stretch;
 }
 
-
 .image2-1{
-    width:6.3rem;
-    height:6rem;
-    background:url('images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg');
-    background-position: center;
-    background-size: cover;
-    border-top-left-radius: 0.9rem;
-    border-bottom-left-radius: 0.9rem;
-
-    
+    background:url('images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg');    
 }
 
 .image2-2{
-    width:6.5rem;
-    height:6rem;
     background:url('images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg');
-    background-position: center;
-    background-size: cover;
-    border-top-left-radius: 0.9rem;
-    border-bottom-left-radius: 0.9rem;
-
 }
 
 .image2-3{
+
+    background:url('images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg');
+}
+
+.image2{
     width:6.5rem;
     height:6rem;
-    background:url('images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg');
     background-position: center;
     background-size:cover;
     border-top-left-radius: 0.9rem;
     border-bottom-left-radius: 0.89em;
-
 }
-
 
 .note_star_2{
     display:flex;
     font-size: 0.7rem;
     margin-left: 0.6rem;
     margin-bottom: 0.2rem;
-    margin-top: 2rem;
 }
 
-@media screen and (max-width:750px){
+@media screen and (min-width:481px) and (max-width:768px){
+
+    .aside1{
+        background-color: #DEEBFF;
+        width: 100%;
+        width: max-content;
+        margin-left: 0px;
+        border-radius: 0px;
+    }
+
+    .section-populaires{
+        display: flex;
+        width: max-content;
+        overflow-x: scroll;
+    }
+
+    .carte2{
+        width: 15rem;
+    }
+}  
+
+@media screen and (max-width:480px){
     .aside1{
         margin-left:0px;
-        width: auto;
         border-radius: 0px;
         margin-top:0.4rem;
-    } 
+        width: auto;
+    }
+
+    .carte2{
+        width: auto;
+    }
 }
 
-@media screen and (min-width:750px) and (max-width:1024px){
-}

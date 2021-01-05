@@ -6,162 +6,61 @@
     height: min-content;
 }
 
-
-
 .article2 h2{
     margin-top: 2rem;
     margin-bottom: 0px;
 }
-    
-    
+ 
 .activités{
     display:flex;
     justify-content: space-between;
-    flex-wrap: wrap;
-
-
-}
-
-.carte3-1{
-    background-color: white;
-    width:13rem;
-    height:17rem;
-    border-radius: 0.8rem;
-    box-shadow: 0 0 16px #0000002e;
-    padding-bottom: 0.5rem;
-}
-
-.carte3-1 a{
-    text-decoration: none;
-}
-
-.carte3-2-1{
-    background-color: white;
-    width:13rem;
-    height:9rem;
-    border-radius: 0.8rem;
-    box-shadow: 0 0 16px #0000002e;
-    padding-bottom: 0.5rem;
-    margin-bottom: 1.5rem;
-}
-
-.carte3-2-1 a{
-    text-decoration: none;
-}
-
-.carte3-2-2{
-    background-color: white;
-    width:13rem;
-    height:6rem;
-    border-radius: 0.8rem;
-    box-shadow: 0 0 16px #0000002e;
-    padding-bottom: 0.5rem;
-}
-
-.carte3-2-2 a{
-    text-decoration: none;
-}
-
-.carte3-2-3{
-    background-color: white;
-    width:13rem;
-    height:7.5rem;
-    border-radius: 0.8rem;
-    box-shadow: 0 0 16px #0000002e;
-    padding-bottom: 0.5rem;
-    margin-bottom: 1.5rem;
-}
-
-.carte3-2-3 a{
-    text-decoration: none;
-}
-
-.carte3-2-4{
-    background-color: white;
-    width:13rem;
-    height:7.5rem;
-    border-radius: 0.8rem;
-    box-shadow: 0 0 16px #0000002e;
-    padding-bottom: 0.5rem;
-}
-
-.carte3-2-4 a{
-    text-decoration: none;
-}
-
-.image-large3{
     padding-top: 1rem;
 }
 
-.image-small3{
-    height: 17.5rem;
-    padding-top: 1rem;
-    
+.carte3{
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0 0 16px #0000002e;
+    padding-bottom: 0.5rem;
+    margin-bottom: 2rem;
 }
 
-
+.carte3 a{
+    text-decoration: none;
+}
 
 .image3-1{
-    width:13rem;
-    height:15rem;
+    height: 15rem;
     background:url('images/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg');
-    background-position: center;
-    background-size: cover;
-    border-top-left-radius: 0.8rem;
-    border-top-right-radius: 0.8rem;
-    margin-bottom: 0.7rem;
 }
 
-
 .image3-2{
-    width:13rem;
     height:7rem;
     background:url('images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg');
-    background-position: center;
-    background-size:cover;
-    border-top-left-radius: 0.8rem;
-    border-top-right-radius: 0.8rem;
-    margin-bottom: 0.7rem;
-
 }
 
 .image3-3{
-    width:13rem;
     height:4rem;
     background:url('images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg');
-    background-position: center;
-    background-size: cover;
-    border-top-left-radius: 0.8rem;
-    border-top-right-radius: 0.8rem;
-    margin-bottom: 0.7rem;
 }
 
 .image3-4{
-    width:13rem;
     height:15rem;
     background:url('images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg');
-    background-position: center;
-    background-size: cover;
-    border-top-left-radius: 0.8rem;
-    border-top-right-radius: 0.8rem;
-    margin-bottom: 0.7rem;
 }
 
 .image3-5{
-    width:13rem;
     height:5.5rem;
     background:url('images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg');
-    background-position: center;
-    background-size: cover;
-    border-top-left-radius: 0.8rem;
-    border-top-right-radius: 0.8rem;
-    margin-bottom: 0.7rem;
 }
 
 .image3-6{
-    width:13rem;
     height:5.5rem;
     background:url('images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg');
+}
+
+.image3{
+    width:13rem;
     background-position: center;
     background-size: cover;
     border-top-left-radius: 0.8rem;
@@ -169,14 +68,47 @@
     margin-bottom: 0.7rem;
 }
 
+@media screen and (min-width:481px) and (max-width:768px){
+   
+    .article2{
+        max-width: 768px;
+        min-width: 768px;
+    }
 
+    .image-small3{
+        display: flex;
+    }
 
-@media screen and (max-width:750px){
+    .carte3{
+        height: 15rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
 
+    .image3{
+        height:13rem;
+    }
+
+    .activités{ justify-content: center;
+        flex-wrap: wrap;
+    }
 
     .article2 h2{
-        padding-left: 1.2rem;
+        text-align: center;
+        margin-bottom: 2rem;
     }
+}
+
+@media screen and (max-width:480px){
+
+    .article2{
+        width: auto;
+    }
+
+    .article2 h2{
+        padding-left: 1.2rem;s
+    }
+
     .activités{
         flex-direction:column;
         padding-left: 0.7rem;
@@ -184,13 +116,11 @@
     }
 
     .carte3{
-        margin-left: 0px;
-        width:90%;
         height: 125px;
-        margin-right:0.5rem;
-        margin-left: 0.5rem;
+        margin-right:0px;
+        margin-left: 0px;
         margin-bottom: 1rem;
-     
+        width:90%;
     }
 
     .image3{
@@ -202,3 +132,4 @@
         margin-bottom: 1rem;
     }
 }
+
