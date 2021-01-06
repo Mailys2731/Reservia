@@ -22,7 +22,7 @@
     margin-right: 0.5rem;
 }
 
-.carte2{
+.card2{
     background-color:white;
     height: min-content;
     border-radius: 0.9rem;
@@ -33,7 +33,7 @@
     padding-right: 0.5rem;
     
 }
-.carte2 a{
+.card2 a{
     display: flex;
     text-decoration: none;
 }
@@ -41,28 +41,32 @@
 .description2 {
     width: calc(100% - 6.3rem);
     align-content:stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 8px;
 }
 
-.image2-1{
-    background:url('images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg');    
-}
-
-.image2-2{
-    background:url('images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg');
-}
-
-.image2-3{
-
-    background:url('images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg');
-}
-
-.image2{
+.picture2{
     width:6.5rem;
     height:6rem;
     background-position: center;
     background-size:cover;
     border-top-left-radius: 0.9rem;
     border-bottom-left-radius: 0.89em;
+}
+
+.picture2-1{
+    background-image:url('images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg');    
+}
+
+.picture2-2{
+    background-image:url('images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg');
+}
+
+.picture2-3{
+
+    background-image:url('images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg');
 }
 
 .note_star_2{
@@ -72,28 +76,35 @@
     margin-bottom: 0.2rem;
 }
 
-@media screen and (min-width:481px) and (max-width:768px){
+@media screen and (min-width:768px) and (max-width:768px){
 
     .aside1{
-        background-color: #DEEBFF;
-        width: 100%;
-        width: max-content;
+        background-color: #F2F2F2;
+        max-width: 768px;
+        width: auto;
+        margin-top: 2rem;
         margin-left: 0px;
         border-radius: 0px;
+        overflow-x: scroll;
+        padding-bottom: 2rem;
     }
 
     .section-populaires{
         display: flex;
         width: max-content;
-        overflow-x: scroll;
     }
 
-    .carte2{
-        width: 15rem;
+    .title-populaire{
+        padding-bottom: 1rem;
     }
+
+    .logo-populaire{
+        display: none;
+    }
+
 }  
 
-@media screen and (max-width:480px){
+@media screen and (max-width:767px){
     .aside1{
         margin-left:0px;
         border-radius: 0px;
@@ -101,8 +112,8 @@
         width: auto;
     }
 
-    .carte2{
-        width: auto;
+    #aside-title{
+        padding-left: 0.4rem;
     }
 }
 
