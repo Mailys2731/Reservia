@@ -1,1 +1,2 @@
-# nouveau-p2
+Projet2 formation "Développeur web Openclassrooms"
+
