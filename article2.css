@@ -1,36 +1,42 @@
 /*ACTIVITES*/
 
 .article2{
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    height: min-content;
+    margin-bottom: 4rem;
+    width:auto;
 }
 
-.article2 h2{
-    margin-top: 2rem;
-    margin-bottom: 0px;
+#title-section-activite{
+    display: none;
 }
  
-.activites{
+.box-activites{
     display:flex;
     justify-content: space-between;
-    padding-top: 1rem;
+
 }
 
 .card3{
     background-color: white;
     border-radius: 1rem;
     box-shadow: 0 0 16px #0000002e;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
     padding-bottom: 0.5rem;
-    margin-bottom: 2rem;
+    width: 14.6rem;
 }
 
 .card3 a{
     text-decoration: none;
 }
 
+.picture-small3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .picture3{
-    width:13rem;
+    width:100%;
     background-position: center;
     background-size: cover;
     border-top-left-radius: 0.8rem;
@@ -39,65 +45,95 @@
 }
 
 .picture3-1{
-    height: 15rem;
-    background-image:url('images/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg');
+    height: 270px;
+    background-image:url('images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg');
 }
 
 .picture3-2{
-    height:7rem;
+    height:125px;
     background-image:url('images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg');
 }
 
 .picture3-3{
-    height:4rem;
+    height:85px;
     background-image:url('images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg');
 }
 
 .picture3-4{
-    height:15rem;
+    height:270px;
     background-image:url('images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg');
 }
 
 .picture3-5{
-    height:5.5rem;
+    height:100px;
     background-image:url('images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg');
 }
 
 .picture3-6{
-    height:5.5rem;
+    height:100px;
     background-image:url('images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg');
 }
 
-@media screen and (min-width:768px) and (max-width:768px){
-   
+@media screen and (min-width:1024px) and (max-width:1280px){
+
+    .article2{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    h2{
+        text-align: center;
+        padding-bottom: 2rem;
+    }
+}
+
+
+
+@media screen and (min-width:768px) and (max-width:1023px){
+
     .article2{
         width: auto;
-        min-width: 768px;
+        display: flex;
+        flex-direction: column;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    h2{
+        text-align: center;
     }
 
-    .picture-small3{
-        display: flex;
+    .box-activites{
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 725px;
     }
 
     .card3{
-        height: 15rem;
+        width:100%;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-bottom:2rem;
+    }
+
+    .picture3{
+        height:150px;
+        width:100%;
+    }
+
+ 
+
+    .picture-large3{
+        display: flex;
+        justify-content: center;
+    }
+
+    .picture-small3{
+        align-items: center;
         margin-left: 1rem;
         margin-right: 1rem;
     }
 
-    .picture3{
-        height:13rem;
-    }
-
-    .activites{ 
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-
-    .article2 h2{
-        text-align: center;
-        margin-bottom: 2rem;
-    }
+ 
 }
 
 @media screen and (max-width:767px){
@@ -105,24 +141,28 @@
     .article2{
         width: auto;
         padding-left: 1.3rem;
+        padding-right: 1.3rem;
+        margin-top: 1.5rem;
     }
 
-    .activites{
+    .box-activites{
         flex-direction:column;
         width: auto;
+        justify-content: center;
     }
 
+
     .card3{
-        height: 125px;
+        height: 175px;
         margin-right:0px;
         margin-left: 0px;
         margin-bottom: 1.3rem;
-        width:90%;
+        width:100%;
     }
 
     .picture3{
         width:100%;
-        height:95px;
+        height:140px;
     }
 }
 

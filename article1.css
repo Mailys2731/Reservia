@@ -1,37 +1,33 @@
 /*ARTICLE1---------------------------------------------------------------------*/
 .article1{
     display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    margin-bottom:3rem;
+    width: 100%;
 }
 
 h2{
     font-size: 1rem;
 }
 
-.titre1{
-    color: black;
-    font-weight: bold;
-    font-size: 0.7rem;
-    margin-top: 0.5rem;
-    margin-bottom: 0.1rem;
-    margin-left: 0.6rem;
+#title-article1{
+    display:none;
+
 }
 
-.titre2{
-    color:black;
-    font-size: 0.6rem;
-    margin-top: 0.1rem;
-    margin-bottom: 0.1rem;
-    margin-left: 0.6rem;
-}
 
 /*Section hébergements-------------------------------------------------------*/
 
 .section-hebergement{
     background-color: #F2F2F2;
-    width:min-content;
-    height: min-content;
+    width:auto;
+    height: auto;
     border-radius: 1rem;
-    padding:0.7rem;
+    padding-left:1rem;
+    padding-right:1rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
 }
 
 .title-hebergement{
@@ -51,9 +47,9 @@ h2{
     border: 3px solid transparent;
     border-radius: 0.9rem;
     box-shadow: 0 0 16px #0000002e;
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
-    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 .card1 a{
@@ -115,12 +111,11 @@ h2{
 }
 
 
-@media screen and (min-width:768px) and (max-width:768px){
+@media screen and (min-width:481px) and (max-width:1279px){
 
     .article1{
         flex-direction: column-reverse;
         width:auto;
-
     }
 
     .section-hebergement{
@@ -130,6 +125,7 @@ h2{
         margin-top: 1rem;
         padding-top: 2rem;
         padding-bottom: 2rem;
+
     }
 
     .horizontal-block{
@@ -138,36 +134,45 @@ h2{
 
     .title-hebergement{
         text-align: center;
-        margin-bottom: 2rem;
+    }
+
+    #hebergement{
+        padding-bottom: 1rem;
     }
 
     .afficher-plus{
         text-align: center;
         margin-top: 2rem;
+  
     }
 
     .card1{
-        width: 14rem;
-        height: 11rem;
+        width: 30%;
+        height: 100%;
+        height: 12rem;
     }
 
     .picture1{
         height: 7rem;
     }
-    
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 480px){
     
     .article1{
         width: auto;
         flex-direction: column-reverse;
     }
+
+    .title-hebergement h2{
+        font-size: 1.1rem;
+    }
     
     .section-hebergement{
         width:auto;
         background-color: white;
-        padding-left:0.6rem;
+        padding-left:1.3rem;
+        padding-right:1.3rem;
     }
 
     .horizontal-block{
@@ -177,8 +182,12 @@ h2{
 
     .card1{
         margin-left: 0px;
-        width:90%;
+        width:100%;
+        height:175px;
+    }
 
+    .picture1{
+        height: calc(85% - 2.5rem);
     }
     
 }
