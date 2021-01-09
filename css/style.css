@@ -126,6 +126,7 @@ header{
     .logo-reservia{
         position:absolute;
         margin-left:1rem;
+
     }
 
     header{
@@ -161,20 +162,16 @@ header{
         padding-bottom:0.5rem;
     }
 
-    .list-header1-1{
+    .list-header a:hover{
 
         border-bottom: #0065FC solid 3px;
     }
     
-    .list-header1-2{
-
-        border-bottom: #F2F2F2 solid 3px;
-    }
 
     .list-header2{
         position: absolute;
         right:30px;
-        top:20px;
+        top:38px;
     }
 }
 
