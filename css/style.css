@@ -16,8 +16,6 @@ body{
         margin-left:0px;
         margin-right: 0px;
         margin-top: 20px;
-       
-
     }
 }
 
@@ -138,6 +136,11 @@ header{
         flex-wrap:wrap-reverse;
         width:100%;
         margin: 0px;
+    
+    }
+
+    .list-header a{
+        border-bottom: #F2F2F2 solid 3px;
     }
 
     .list-header1{
@@ -146,7 +149,7 @@ header{
         justify-content: space-around;
         margin-left: 0px;
         margin-right: 0px;
-        margin-top: 70px;
+        margin-top: 90px;
         text-align: center;
     }
 
