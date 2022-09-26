@@ -16,4 +16,4 @@ Contraintes:
 
 Pluggings VSCode : live-server & Prettier
 
-[Ouvrir la page web dans le navigateur](https://mailys2731.github.io/Reservia_integration_HTML-CSS/)
+[Ouvrir la page web dans le navigateur](https://mailys2731.github.io/Reservia/)
