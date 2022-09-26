@@ -13,6 +13,7 @@ Contraintes:
 * Aucune erreur ni alerte au validateur W3C HTML et CSS
 * Compatible avec les dernières versions de Chrome et Firefox
 
+
 Pluggings VSCode : live-server & Prettier
 
-LIEN DE LA PAGE WEB -> https://mailys2731.github.io/Reservia_integration_HTML-CSS/
+LIEN DE LA PAGE WEB -> [Link](https://mailys2731.github.io/Reservia_integration_HTML-CSS/)
