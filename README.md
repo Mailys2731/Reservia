@@ -6,12 +6,12 @@
 
 Contraintes:
 
-*Pas de framework
-*Pas de pré-compilateur CSS
-*Balises sémantiques
-*Mobile first
-*Aucune erreur ni alerte au validateur W3C HTML et CSS
-ùCompatible avec les dernières versions de Chrome et Firefox
+* Pas de framework
+* Pas de pré-compilateur CSS
+* Balises sémantiques
+* Mobile first
+* Aucune erreur ni alerte au validateur W3C HTML et CSS
+* Compatible avec les dernières versions de Chrome et Firefox
 
 Pluggings VSCode : live-server & Prettier
 
