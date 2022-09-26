@@ -12,4 +12,4 @@ Compatible avec les dernières versions de Chrome et Firefox
 
 Pluggings VSCode : live-server & Prettier
 
-LIEN DE LA PAGE WEB -> https://mailys2731.github.io/MailysCondamy_2_19122020/
+LIEN DE LA PAGE WEB -> https://mailys2731.github.io/Reservia_integration_HTML-CSS/
