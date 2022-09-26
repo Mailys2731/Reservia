@@ -2,9 +2,9 @@
 
 *Projet réalisé dans le cadre de la formation "Développeur web", Openclassrooms*
 
-**Pour réaliser ce projet, une maquette desktop et une mobile m'ont étaient fournies**
+Pour réaliser ce projet, une maquette desktop et une mobile m'ont étaient fournies
 
-Contraintes:
+**Contraintes:**
 
 * Pas de framework
 * Pas de pré-compilateur CSS
