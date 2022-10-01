@@ -1,3 +1,7 @@
+
+[Ouvrir la page web dans le navigateur](https://mailys2731.github.io/Reservia/)
+
+
 ## Intégration de la maquette du site web Reservia
 
 *Projet réalisé dans le cadre de la formation "Développeur web", Openclassrooms*
